@@ -15,10 +15,7 @@ function showPerson() {
     document.getElementById("person").style.display = 'block';
 }
 
-function showButton() {
-    document.querySelector("#btn-again").style.display = 'block';
 
-}
 function refresh() {
     document.getElementById("again").addEventListener("click", reload);
 }
@@ -34,7 +31,6 @@ function reload() {
 function loadUser() {
     showPerson();
     hideGreeding();
-    showButton();
     contenido = document.getElementById("person");
 
     //conection with the API
